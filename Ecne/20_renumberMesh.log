@@ -1,0 +1,113 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _2c4871ff-20250317 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : renumberMesh -constant -overwrite -parallel
+Date   : May 30 2025
+Time   : 10:57:39
+Host   : Ecne
+PID    : 2416067
+I/O    : uncollated
+Case   : /home/colmmcalister/OpenFOAM/colmmcalister-v2412/run/ofw2025/occDrivAerStaticMesh
+nProcs : 8
+Hosts  :
+(
+    (Ecne 8)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    maxCommsSize       : 0
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = constant
+
+Mesh region0 size: 65334765
+Before renumbering
+    band           : 7711788
+    profile        : 7451352636126
+
+Using renumber-method: CuthillMcKee [default]
+
+Reading fields
+
+Renumbering processor cell decomposition map cellProcAddressing
+Renumbering processor face decomposition map faceProcAddressing
+Renumbering processor point decomposition map pointProcAddressing
+After renumbering
+    band           : 154961
+    profile        : 3972879903649
+
+Writing mesh to "constant"
+
+Timings:
+    read mesh   : 2.998445873
+    read fields : 0.019471546
+    decompose   : 0
+    cell-cells  : 0
+    renumber    : 1.956913876
+    write       : 1.465247672
+TotalTime = 14.326492342 s
+
+ExecutionTime = 13.65 s  ClockTime = 14 s
+
+End
+
+Finalising parallel run
+real	0:16.53
+user	99.08
+sys	19.36

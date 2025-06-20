@@ -1,0 +1,112 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _2c4871ff-20250317 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : potentialFoam -initialiseUBCs -parallel
+Date   : May 30 2025
+Time   : 10:57:55
+Host   : Ecne
+PID    : 2416099
+I/O    : uncollated
+Case   : /home/colmmcalister/OpenFOAM/colmmcalister-v2412/run/ofw2025/occDrivAerStaticMesh
+nProcs : 8
+Hosts  :
+(
+    (Ecne 8)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    maxCommsSize       : 0
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+potentialFlow: Operating solver in PISO mode
+
+Reading velocity field U
+
+Constructing pressure field p
+
+Constructing velocity potential field Phi
+
+No MRF models present
+
+
+Calculating potential flow
+GAMG:  Solving for Phi, Initial residual = 1, Final residual = 0.04382426866332419, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 0.02225175220183305, Final residual = 1.776966155582362e-05, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 0.0005786036573056077, Final residual = 3.157716777860927e-06, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 4.196472186147499e-05, Final residual = 5.634176876364579e-07, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 5.961457720337895e-06, Final residual = 7.815282571535731e-08, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 1.136329976488536e-06, Final residual = 8.453154436370446e-09, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 1.731901177414219e-07, Final residual = 9.550453879633621e-10, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 2.634939269016911e-08, Final residual = 1.66290600501922e-10, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 6.054525141991584e-09, Final residual = 4.067233260412246e-11, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 2.442612399793199e-09, Final residual = 1.190668092965542e-11, No Iterations 12
+GAMG:  Solving for Phi, Initial residual = 1.356633274347778e-09, Final residual = 2.746981307725126e-12, No Iterations 12
+Continuity error = 1.647745570410295e-10
+Interpolated velocity error = 9.777647094747471e-05
+ExecutionTime = 176.28 s  ClockTime = 179 s
+
+End
+
+Finalising parallel run
+real	2:59.80
+user	1341.05
+sys	73.62
